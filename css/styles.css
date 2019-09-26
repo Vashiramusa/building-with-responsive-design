@@ -210,6 +210,26 @@
   .navigation-list {
     display: flex;
   }
+ 
+  .article-div{
+    display: flex;
+    margin-top: 114px;
+    align-items: flex-end;
+  }
+
+  .article {
+    margin-right: 8px;
+    height: 302.90px;
+    width: 70%;
+  }
+
+  .h2-1 {
+    font-size: 38px;
+  }
+
+  .article-div2 {
+    width: 30%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
