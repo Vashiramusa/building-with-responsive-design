@@ -134,18 +134,35 @@
 }
 
 .article-div {
-  background: green;
   width: 100%;
   margin-top: 80px;
   padding: 0 8px;
 }
 
 .article-1 {
-  background: purple;
   padding: 14px 12px;
   margin-bottom: 8px;
+  color: #fff;
+  height: 147.69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
+.article {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Featured-Image-TNW-Visual-796x531.jpg);
+  background-size: cover;
+}
+
+.article-two {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/sonarworks-796x398.jpg);
+  background-size: cover;
+}
+
+.article-three {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/11/Xbox-One-X-2-of-4-796x417.jpg);
+  background-size: cover;
+}
 .span-1{
   font-size: 14px;
   display: inline-block;
