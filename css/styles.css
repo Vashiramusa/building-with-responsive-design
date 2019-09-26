@@ -133,6 +133,36 @@
   font-weight: 700;
 }
 
+.article-div {
+  background: green;
+  width: 100%;
+  margin-top: 80px;
+  padding: 0 8px;
+}
+
+.article-1 {
+  background: purple;
+  padding: 14px 12px;
+  margin-bottom: 8px;
+}
+
+.span-1{
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.h2 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.span-2 {
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
 @media screen and (min-width: 320px) {
   .navigation-list {
     display: none;
