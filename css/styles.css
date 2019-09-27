@@ -498,4 +498,11 @@
   .companies__article:last-child {
     display: block;
   }
+
+  .content-companies-section {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    margin-top: 62px;
+  }
 }
