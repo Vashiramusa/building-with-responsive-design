@@ -229,6 +229,12 @@
   margin-top: 8px;
 }
 
+.content-companies-section {
+  padding: 20px;
+  background: red;
+  margin-top: 16px;
+}
+
 @media screen and (min-width: 320px) {
   .navigation-list {
     display: none;
