@@ -236,8 +236,22 @@
 
 .content-companies-section {
   padding: 20px;
-  background: red;
   margin-top: 16px;
+}
+
+.companies-section__menu {
+  list-style: none;
+  margin-top: 12px;
+}
+
+.companies-section__menu > li {
+  margin-top: 8px;
+}
+
+.companies-section__menu > li > a {
+  color: #FF4422;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 320px) {
