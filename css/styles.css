@@ -247,4 +247,8 @@
     right: 0;
     z-index: 10;
   }
+
+  .article-div{
+    margin-top: 82px;
+  }
 }
