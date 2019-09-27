@@ -250,5 +250,24 @@
 
   .article-div{
     margin-top: 82px;
+    align-items: flex-start;
   }
+
+  .article {
+    height: 508px;
+  }
+
+  .article-div2 {
+    height: 500px;
+  }
+
+  .article-two {
+    height: 50%;
+    margin-top: 0;
+  }
+
+  .article-three {
+    height: 50%;
+  }
+
 }
