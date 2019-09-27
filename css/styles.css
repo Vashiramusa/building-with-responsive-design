@@ -490,4 +490,12 @@
   .article-item__title {
     font-size: 16px;
   }
+
+  .companies__article {
+    width: 24%;
+  }
+
+  .companies__article:last-child {
+    display: block;
+  }
 }
