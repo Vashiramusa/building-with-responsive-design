@@ -229,6 +229,11 @@
   margin-top: 8px;
 }
 
+.companies-section__title {
+  color: #FF4422;
+  font-size: 28px;
+}
+
 .content-companies-section {
   padding: 20px;
   background: red;
