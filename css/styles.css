@@ -411,6 +411,18 @@
   .article-item__description {
     padding: 6px 0;
   }
+
+  .companies-section__container {
+    justify-content: space-between
+  }
+
+  .companies__article {
+    width: 32%;
+  }
+
+  .companies__article:last-child {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1024px) {
