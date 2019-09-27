@@ -183,7 +183,7 @@
 .content-section {
   display: flex;
   flex-direction: column;
-  margin-top: 120px;
+  margin-top: 58px;
   padding: 20px;
 }
 
@@ -191,6 +191,42 @@
   color: #FF4422;
   font-size: 28px;
   margin-bottom: 20px;
+}
+
+.content-section__article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-container__item {
+  width: 100%;
+  display: flex;
+  margin-top: 6px;
+}
+
+.article-item__image {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+
+}
+
+.article-item__description {
+  padding: 12px;
+  padding-top: 0;
+  flex: 1;
+}
+
+.article-item__title {
+  font-size: 14px;
+  line-height: 1.4
+}
+
+.article-item__small {
+  font-size: 12px;
+  color: #a5a5a5;
+  display: inline-block;
+  margin-top: 8px;
 }
 
 @media screen and (min-width: 320px) {
