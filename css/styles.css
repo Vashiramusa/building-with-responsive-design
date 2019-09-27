@@ -344,6 +344,14 @@
   font-size: 13px;
   line-height: 1.4;
 }
+
+.line {
+  margin-left: 8px;
+  color: #FF4422;
+  display: none;
+}
+
+
 @media screen and (min-width: 320px) {
   .navigation-list {
     display: none;
@@ -504,5 +512,25 @@
     width: 90%;
     margin: auto;
     margin-top: 62px;
+    position: relative;
+  }
+
+  .companies-section__menu {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    display: flex;
+  }
+
+  .companies-section__menu li {
+    margin-right: 8px;
+  }
+
+  .companies-section__menu li a {
+    font-size: 16px;
+  }
+
+  .line {
+    display: inline-block
   }
 }
