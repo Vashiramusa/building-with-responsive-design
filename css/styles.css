@@ -512,7 +512,11 @@ flex-direction: column;
   color: #fff;
   background-size: cover;
   background-position: center center;
+}
 
+.article-most-pop6 {
+ background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/02/RDR-2-796x415.jpg"); 
+}
 
 
 @media screen and (min-width: 320px) {
