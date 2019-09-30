@@ -465,6 +465,42 @@ flex-direction: column;
   background-position: center center;
 }
 
+.article-most-pop2 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FiPhone-11-bright.jpg&signature=53572468974eacdc08f6e2de124d2ad3");
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  justify-content: flex-end;
+  height: 210px;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
+.article-most-pop3 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-design111.png&signature=7d6e7153d1bdbca5690e599ce95ba707");
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  justify-content: flex-end;
+  height: 210px;
+  color: #fff;
+  background-size: cover;
+  background-position: center center; 
+}
+
+.article-most-pop4 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F09%2Fmoonday-morning.png&signature=a99a6ec0f79e1b0b7e5e719a407db6e1");
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  justify-content: flex-end;
+  height: 210px;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
 
 
 @media screen and (min-width: 320px) {
