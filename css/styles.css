@@ -352,7 +352,6 @@
 }
 
 .overoll-div {
-width: 100%;
 margin: 20px;
 display: flex;
 flex-direction: column;
@@ -373,10 +372,7 @@ flex-direction: column;
   color: #fff;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/chrome-audio-mute-tab-796x417.jpg");
   background-size: cover;
-}
-
-.section1-apps {
- 
+  background-position: center center;
 }
 
 .span-pop {
@@ -396,6 +392,65 @@ flex-direction: column;
 
 .div-ivan {
   margin-top: 9px;
+}
+
+.article-latest {
+  background: #FFF4F2 ;
+  display: flex;
+  margin-top: 3px;
+}
+
+.div-latest {
+ width: 70%;
+ padding: 10px 14px 0;
+}
+.image {
+  object-fit: cover;
+  width: 96px;
+  height: 96px;
+}
+
+.link-latest {
+  font-size: 14px;
+  line-height: 1.4;
+  text-decoration: none;
+  display: inline-block;
+  color: #FF4422;
+}
+
+.span-latest {
+  font-size: 13px;
+  color: #FF4422;
+}
+
+.latest-list {
+ 
+  list-style: none;
+}
+
+.a-latest {
+  display: inline-block;
+  position: relative;
+  color: #555;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.a-latest::before {
+  content: " "; 
+  height: 4px;
+  width: 4px;
+  background: #FF4422;
+  position: absolute;
+  left: -16px;
+  top: 7px;
+  border-radius: 50%;
+}
+
+.list-latest {
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  padding: 6px 0 6px 14px;
 }
 
 
