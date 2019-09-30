@@ -566,6 +566,16 @@ flex-direction: column;
   .companies__article:last-child {
     display: none;
   }
+
+  .overoll-div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+    .section1-apps {
+      width: 48%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -668,4 +678,16 @@ flex-direction: column;
   .line {
     display: inline-block
   }
+
+  .overoll-div {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    justify-content: flex-start;
+  }
+
+    .section1-apps {
+      width: 31%;
+      margin-right: 20px;
+    }
 }
