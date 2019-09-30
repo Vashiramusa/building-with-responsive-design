@@ -447,6 +447,10 @@ flex-direction: column;
   border-radius: 50%;
 }
 
+.section1-apps {
+  margin-top: 35px;
+}
+
 .list-latest {
   height: 50px;
   border-bottom: 1px solid #ccc;
