@@ -398,6 +398,7 @@ flex-direction: column;
   background: #FFF4F2 ;
   display: flex;
   margin-top: 3px;
+  justify-content: space-between;
 }
 
 .div-latest {
