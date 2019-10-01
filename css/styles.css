@@ -487,7 +487,6 @@ flex-direction: column;
 }
 
 .lastes_deals {
-  background: red;
   margin: 20px;
   margin-top: 42px;
   display: flex;
@@ -502,6 +501,13 @@ flex-direction: column;
   display: inline-block;
   position: absolute;
   right: 0;
+}
+
+.deals_container {
+  background: green;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (min-width: 320px) {
   .navigation-list {
