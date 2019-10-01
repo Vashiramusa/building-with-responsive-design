@@ -745,8 +745,15 @@ flex-direction: column;
     justify-content: flex-start;
   }
 
-    .section1-apps {
-      width: 31%;
-      margin-right: 20px;
-    }
+  .section1-apps {
+    width: 31%;
+    margin-right: 20px;
+  }
+
+  .lastes_deals {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    margin-top: 56px;
+  }
 }
