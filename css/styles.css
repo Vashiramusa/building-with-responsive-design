@@ -711,6 +711,43 @@ flex-direction: column;
     .section1-apps {
       width: 48%;
     }
+
+    .deals-span {
+      font-size: 16px;
+    }
+  
+    .deals_item {
+      width: 31%;
+      flex-direction: column;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+      
+    }
+  
+    .deals_item::before {
+      position: absolute;
+      height: 120px;
+      width: 120px;
+      background: #ffdd33;
+      content: "89% OFF";
+      display: inline-block;
+      right: -60px;
+      top: -60px;
+      transform: rotate(45deg);
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px;
+    }
+  
+    .deals_image {
+      width: 100%;
+      height: 200px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -833,40 +870,7 @@ flex-direction: column;
     margin-top: 56px;
   }
 
-  .deals-span {
-    font-size: 16px;
-  }
-
   .deals_item {
     width: 24%;
-    flex-direction: column;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    position: relative;
-    overflow: hidden;
-    
-  }
-
-  .deals_item::before {
-    position: absolute;
-    height: 120px;
-    width: 120px;
-    background: #ffdd33;
-    content: "89% OFF";
-    display: inline-block;
-    right: -60px;
-    top: -60px;
-    transform: rotate(45deg);
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 4px;
-  }
-
-  .deals_image {
-    width: 100%;
-    height: 200px;
   }
 }
