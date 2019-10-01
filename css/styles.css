@@ -10,9 +10,11 @@
 .navigation-bar {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0;
+  z-index: 9999;
+  background: #fff;
 }
 
 .navigation-bar__container {
