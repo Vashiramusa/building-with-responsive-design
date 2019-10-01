@@ -490,6 +490,18 @@ flex-direction: column;
   background: red;
   margin: 20px;
   margin-top: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.deals-span {
+  color: #FF4422;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
 }
 @media screen and (min-width: 320px) {
   .navigation-list {
